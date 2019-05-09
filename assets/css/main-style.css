@@ -1,0 +1,234 @@
+/*
+	Name  	: Template Jogja Coffe;
+	Author	: Yudi Arif Kurniawan;
+	URI   	: https://ngodeinweb.com/demo/jogja-coffe;
+
+*/
+
+/* GLOBAL */
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #f8f8f8;
+}
+
+a {
+	color: #01b1e6;	
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+hr {
+	padding-top: 8px;
+	padding-bottom: 5px;
+	border-color: #747d8c;
+}
+
+.wrapper {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bg-black {
+	background-color: #1e272e;
+}
+
+.bg-grey {
+	background-color: #d5d5d5;
+}
+
+.moca {
+	color: #ae966a;
+	font-weight: bold;
+}
+
+.leftj {
+	text-align: left;
+}
+
+
+
+
+/* NAVBAR */
+.navbar-dark .navbar-nav .show > .nav-link,
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #ae966a;
+}
+
+.navbar-nav .nav-link {
+	text-transform: uppercase;
+}
+
+.bg-grey .nav-link {
+	text-transform: uppercase;
+	color: #84817a;
+}
+
+/* Carousel */
+#jcf-carousel img {
+	max-height: 504px;
+}
+
+/* information */
+.jcf-information {
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+
+/* stories */
+.jcf-stories {
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.jcf-stories  h1 {
+	text-align: center;
+	font-size: 40px;
+}
+
+.jcf-stories .row {
+	padding-top: 30px;
+}
+
+.jcf-next-issue h2 {
+	font-size: 40px;
+}
+
+.jcf-next-issue h4 {
+	text-align: justify;
+}
+
+@media (min-width: 560px) {
+	.jcf-stories  h1 {
+		text-align: center;
+		font-size: 90px;
+	}
+
+	.jcf-next-issue {
+		padding-left: 9%;
+	}
+}
+
+/* testimonies */
+.jcf-testimonies h1 {
+	text-align: center;
+	font-size: 40px;
+}
+
+.jcf-testimonies-box {
+	background-color: white;
+	max-width: 1028px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 25px;
+	box-shadow: 0px 5px 12px -4px #777;
+	padding: 40px 20px 40px 20px;
+	text-align: center;
+}
+
+.jcf-testimonies-box .row {
+	padding-top: 10px;
+}
+
+@media (min-width: 560px) {
+	.jcf-testimonies h1 {
+		text-align: center;
+		font-size: 90px;
+	}
+
+	.jcf-testimonies-box {
+		text-align: left;
+	}
+
+}
+
+/* stories */
+.jcf-patners h1 {
+	text-align: center;
+	font-size: 40px;
+}
+
+.jcf-patners-box {
+	background-color: white;
+	max-width: 1028px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 25px;
+	box-shadow: 0px 5px 12px -4px #777;
+	padding: 40px 20px 40px 20px;
+	text-align: center;
+}
+
+.jcf-patners-box .row {
+	padding-top: 30px;
+}
+
+.jcf-patners-box-moca {
+	height: 60px;
+	background-color: #ae966a;
+	max-width: 1028px;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 0px 5px 12px -4px #777;
+}
+
+@media (min-width: 560px) {
+	.jcf-patners h1 {
+		text-align: center;
+		font-size: 90px;
+	}
+
+	.jcf-testimonies-box {
+		text-align: left;
+	}
+
+}
+
+
+/* Footer */
+.jcf-footer {
+	background-color: black;
+	padding: 60px 20px 30px 60px;
+	margin-top: 80px;
+	text-align: center;
+}
+
+.jcf-footer h5 {
+	color: #ae966a;
+}
+
+.jcf-footer p {
+	color: white;
+	font-size: 18px;
+}
+
+.jcf-footer p a {
+	font-size: 20px;
+}
+
+.jcf-footer .jcf-sosial-media li a {
+	font-size: 20px;
+}
+
+@media (max-width: 568px){
+	.leftj {
+		text-align: center;
+	}
+
+	.jcf-footer {
+		padding: 20px 20px 20px 20px;
+	}
+
+	.jcf-footer .col-md-3 {
+		padding-top: 20px;
+	}
+}
