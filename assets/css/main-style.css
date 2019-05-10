@@ -45,6 +45,10 @@ hr {
 	font-weight: bold;
 }
 
+.blue {
+	color: #01b1e6;
+}
+
 .leftj {
 	text-align: left;
 }
@@ -151,7 +155,7 @@ hr {
 
 }
 
-/* stories */
+/* patners */
 .jcf-patners h1 {
 	text-align: center;
 	font-size: 40px;
@@ -231,4 +235,125 @@ hr {
 	.jcf-footer .col-md-3 {
 		padding-top: 20px;
 	}
+}
+
+
+/* jcf card */
+.jcf-card h1 {
+	text-align: center;
+	font-size: 30px;
+	padding-top: 50px;
+}
+
+.sub-tagline {
+	text-align: center;
+	color: #ae966a;
+	font-size: 20px;
+}
+
+.jcf-card .card {
+	box-shadow: 0px 5px 12px -4px #777;
+	margin-top: 30px;
+	max-width: 410px;
+}
+
+.jcf-card .card-title {
+	font-weight: bold;
+}
+
+.jcf-card .page-item.active .page-link {
+    background-color: #ae966a;
+    border-color: #ae966a;
+}
+
+.jcf-card .page-link {
+    color: #ae966a;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+.page-item.active .page-link {
+    background-color: #ae966a;
+    border-color: #ae966a;
+}
+
+.page-link {
+    color: #ae966a;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+@media (min-width: 560px) {
+	.jcf-card h1 {
+		text-align: center;
+		font-size: 90px;
+	}
+
+	.sub-tagline {
+		font-size: 30px;
+	}
+
+}
+
+
+/* coffee art */
+.jcf-coffeeart .card {
+	box-shadow: 0px 5px 12px -4px #777;
+	margin-top: 20px;
+}
+
+.jcf-coffeeart .card h5, .jcf-coffeeart .card p {
+	text-align: center;
+}
+
+/* Modal */
+.modal-content {
+	background-color: transparent;
+	border: transparent;
+}
+
+.modal-header {
+	border:transparent;
+}
+
+.modal-body {
+	text-align: center;
+}
+
+
+/* ABOUT US */
+.about-us-body {
+	padding-right: 40px;
+	padding-left: 40px;
+}
+.about-us-body p {
+	font-size: 20px;
+	line-height: 50px;
+	margin-bottom: 2px;
+}
+
+.jcf-sosial-media li a {
+	font-size: 20px;
+	color: #ae966a;
+}
+
+@media (max-width: 560px){
+	.about-us-body p strong {
+		font-size: 21px;
+	}
+}
+
+/* MAGZ */
+.magz-box {
+	text-align: center;
+}
+.magz-box img {
+	box-shadow: 0px 5px 12px -4px #777;
+	margin-bottom: 30px;
+}
+
+.magz-box p {
+	font-size: 20px;
+	letter-spacing: 3px;
+	font-weight: normal;
 }
